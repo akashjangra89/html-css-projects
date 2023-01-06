@@ -1,0 +1,99 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(26, 24, 24);
+    height: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.navbar img{
+    width: 5rem;
+}
+.line{
+    background-color: rgb(240, 248, 255);
+    width: 1px;
+    height: 40px;
+    margin-left: -180px ;
+}
+@media (max-width:921px){
+    .line{
+        display: none;
+    }
+    .navbar img{
+        width: 60%;
+        margin-left: -70px;
+    }
+    .list{
+        flex-shrink: 1;
+    }
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin-left: -200px;
+    font-size: 0.675rem;
+    font-weight: 600;
+}
+.list li{
+    margin-right: 20px;
+    color: rgb(240, 248, 255);
+}
+.list li:hover{
+    color: rgb(188, 194, 201);
+    cursor: pointer;
+}
+.hero{
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+
+}
+div button{
+    background-color: rgb(196, 30, 196);
+    border: 1px solid rgb(196, 30, 196);
+    color: rgb(240, 248, 255);
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 0.615rem;
+    font-weight: 600;
+}
+div button:hover{
+    cursor: pointer;
+    background-color: rgb(167, 37, 167);
+}
+.hero{
+    text-align: center;
+    color: rgb(240, 248, 255);
+    font-size: 2rem;
+}
+.hero h1, p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.hero p{
+    font-size: 1.1rem;
+}
+.hero-heading{
+    padding-top: 150px;
+}
+.button-large{
+    margin-top: 50px;
+    font-size: 1.2rem;
+    padding: 8px 12px;
+    border-radius: 6px;
+}

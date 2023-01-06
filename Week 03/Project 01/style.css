@@ -1,0 +1,83 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 60px 80px 60px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin-right: 350px;
+}
+.list li{
+    margin: 10px;
+    font-size: 0.725rem;
+    color: slategray;
+}
+.list li:active{
+    color: rgb(0, 0, 0);
+}
+.list li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-container div{
+    align-self: center;
+}
+.navbar-container img{
+    width: 5rem;
+}
+.nav-button{
+    background-color: rgb(117, 52, 238);
+    border: 1px solid rgb(117, 52, 238);
+    color: white;
+    padding: 8px 14px 8px 14px;
+    border-radius: 7px;
+    font-size: 0.525rem;
+}
+.nav-button:hover{
+    background-color: rgb(95, 28, 219);
+    cursor: pointer;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner-container img{
+    width: 80%;
+    height: 80%;
+    
+}
+.left-container{
+    width: 25%;
+    
+}
+.right-container{
+    width: 60%;
+    
+}
+.heading-text{
+    color: rgb(73, 6, 73);
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.heading-text span{
+    color: rgb(117, 52, 238);
+    
+}
+.description{
+    font-size: 0.625rem;
+    color: rgb(112, 128, 144);
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 40px;
+    font-size: 0.675rem;
+}
