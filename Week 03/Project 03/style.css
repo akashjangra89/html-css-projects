@@ -30,6 +30,14 @@
 .navbar-container img{
     width: 7rem;
 }
+@media (max-width: 540px) {
+    .navbar-container img{
+        width: 7rem;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -56px;
+    }
+  }
 .list{
     display: flex;
     list-style: none;

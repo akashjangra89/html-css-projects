@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 233, 228);
+}
+header{
+    display: flex;
+    padding-top: 20px;
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+ul li:hover{
+    cursor: pointer;
+    color: green;
+}
+.logo img{
+    height: 20px;
+}
+.logo{
+    margin-top: 5px;
+    
+}
+main{
+    display:flex;
+    align-items: center;
+    padding: 100px;
+}
+.left-container{
+    width: 70%;
+    margin-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3em;
+}
+@media (max-width:665px){
+    .left-container{
+        width: 100%;
+        margin-right: 0;
+    }
+    main{
+    
+        flex-wrap: wrap;
+    }
+}
+.left-container h1{
+    font-size: 2.5rem;
+}
+.left-container p{
+    font-size: .65rem;
+    color: rgb(51, 50, 50);
+}
+.right-container{
+    /* width: 40%; */
+}
+.right-container img{
+    width: 12rem;
+    margin: 5px;
+}
+.right-container .girl-3-image{
+    width: 25rem;
+}
+
+button{
+    background-color:rgb(49, 126, 82);
+    border: 1px solid rgb(49, 126, 82);
+    padding: 5px 10px;
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
