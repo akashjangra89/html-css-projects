@@ -8,7 +8,7 @@
 
 ![Project 1](./Project%2001/output.png)
 
-- Make HTML and CSS Again.
+- Project 1 Completed Using HTML and CSS.
 
 ---
 
@@ -18,7 +18,7 @@
 
 ![Project 2](./Project%2002/output.png)
 
-- Make HTML and CSS Again.
+- Project 2 Completed Using HTML and CSS.
 
 ---
 
@@ -26,6 +26,6 @@
 
 ### Output
 
-![Project 1](./Project%2003/output.png)
+![Project 3](./Project%2003/output.png)
 
-- Make HTML and CSS Again.
+- Project 1 Completed Using HTML and CSS.

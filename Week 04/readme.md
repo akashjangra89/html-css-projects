@@ -8,7 +8,7 @@
 
 ![Project 1](./Project%201/output.png)
 
-- Create HTML and CSS again.
+- Project 1 Completed Using HTML and CSS.
 
 ---
 
@@ -18,7 +18,7 @@
 
 ![Project 2](./Project%202/output.png)
 
-- Create HTML and CSS again.
+- Project 2 Completed Using HTML and CSS.
 
 ---
 
@@ -26,9 +26,9 @@
 
 ### Output
 
-![Project 1](./Project%203/Output.png)
+![Project 3](./Project%203/Output.png)
 
-- Create HTML and CSS again.
+- Project 3 Completed Using HTML and CSS.
 
 # Sunday
 
