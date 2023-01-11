@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(./images/stethoscope.png) no-repeat;
+    background-position: center;
+    background-size: 40% 80%;
+
+
+}
+header{
+    padding: 30px 40px 40px 80px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin-right: 40px;
+}
+.menu li:hover{
+    cursor: pointer;
+    font-weight: 500;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.left-container{
+    padding-left: 80px;
+    width: 52%;
+}
+.left-container h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.left-container p{
+    margin-top: 20px;
+    color: rgb(145, 142, 142);
+}
+
+button{
+    border: 1px solid #20BC7E;
+    background-color: #20BC7E;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    margin-top: 30px;
+}
+button:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+.bottomAngle img{
+    margin-left: 500px;
+}
+.mouse img{
+margin-left: 570px;
+}
+.right-container{
+    margin: 0 20px 0 20px;
+    width: 35%;
+}
+.greenBox img{
+    width: 25rem;
+    margin-left: 70px;
+    margin-top: 40px;
+    
+}
+
+.yellowbox img{
+    width: 22rem;
+    margin-left: 90px;
+}
+
+.doctor img{
+    position: relative;
+    width: 26rem;
+    height: 88vh;
+    margin-top: -510px;
+    margin-left: 75px;
+}
+.yellowbox{
+    position: relative;
+    margin-top: -370px;
+    margin-left: 50px;
+}
