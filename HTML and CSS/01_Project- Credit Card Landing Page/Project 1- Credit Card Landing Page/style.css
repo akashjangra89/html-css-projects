@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    padding-top: 15px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:640px) {
+    .menu{
+        flex-direction: column;
+    }
+
+    
+}
+.menu ul{
+    display:flex;
+    gap: 30px;
+    
+}
+.menu ul a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+select{
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border: none;
+font-size: 1.1rem;
+}
+.contact a{
+    margin-left: -62px;
+}
+.header-container{
+    display: flex;
+    background-image: url(./Assets/Photos/backCards.png);
+    background-repeat: no-repeat;
+    background-size: 46%;
+    background-position: 320px -50px;
+    color: rgb(255, 255, 255);
+    height: 80vh;
+    margin-top: 50px;
+}
+
+
+
+.header-left-container{
+    padding: 50px 100px;
+    width: 76%;
+    z-index: 99999;
+}
+.header-left-container h1{
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.header-left-container span{
+    color: #F637EC;
+    font-weight: 600;
+}
+.header-left-container p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(128, 128, 128);
+    font-size: 0.9rem;
+}
+.button{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.button p{
+    margin: -1px 10px 0 -20px; 
+     
+}
+.button a{
+    text-decoration: none;  
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.arrow{
+    margin-top: 4px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+.content h2{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.content p{
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin-left: 10px;
+}
+.content span{
+    font-weight: 500;
+}
+.content-left{
+    display: flex;
+    border-right: 1px solid rgb(255, 255, 255);
+    padding-right: 40px;
+    height: 35px;
+}
+.content-right{
+    display: flex;
+    padding-left: 20px;
+}
+.header-right-container{
+    margin-left: -600px;
+    width: 37%;
+
+    
+}
+.header-right-container img{
+	width: 47vw;
+    
+}
+.gallery{
+    background-color: rgb(83, 83, 83);
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.gallery svg{
+    width: 8rem;
+}
+.services-main{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 100px;
+}
+.services-top{
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    
+}
+.services-top h2{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.services-top p{
+    font-size: 0.8rem;
+    padding: 0 97px 0 140px;
+}
+.services-top span{
+    color: #F637EC;
+}
+.services-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+.services-bottom svg{
+width: 5rem;
+
+}
+.services-bottom .svg{
+    width: 50%;
+    margin: -35px auto;
+    
+}
+.dollar{
+    box-shadow:  -1px -1px 2px -1px;
+padding: 24px;
+    background-color: rgb(18 17 17);
+    
+}
+.ease{
+    
+    box-shadow:  -1px -1px 2px 0px;
+padding: 24px;
+background-color: rgb(104, 104, 104);
+margin-top: -20px;
+margin-bottom: 15px;
+}
+.guarantee{
+    
+        box-shadow:  -1px -1px 2px -1px;
+    padding: 26px;
+        background-color: rgb(18 17 17)
+    
+}
+.unique {
+    background-color: rgb(247, 240, 230);
+    padding: 100px 50px 20px 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.unique h2{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.unique span{
+    color: #F637EC;
+    font-weight: 600;
+}
+.unique p{
+    margin-top: 50px;
+    font-size: 1.1rem
+}
+.customers{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 100px;
+    
+}
+.customers h2{
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 100px 0 100px;
+}
+.customers span{
+    color: #F637EC;
+    font-weight: 400;
+}
+.customers .para {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    font-size: 1rem;
+    margin-top: 50px;
+}
+.reviews svg{
+    width: 8rem;
+}
+.review-1{
+box-shadow:  -1px -1px 2px 0px;
+padding: 20px 70px;
+background-color: rgb(104, 104, 104);
+
+}
+.review-2, .review-3, .review-4{
+    box-shadow:  -1px -1px 2px -1px;
+    padding: 20px 70px;
+        background-color: rgb(18 17 17);
+
+}
+.name{
+    margin-top: 20px;
+}
+.bottom-style{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button-shape{
+    background-color: #F637EC;
+    width: 70px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 40px;
+    
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(18 17 17);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.card-customize{
+    background-image: url(./Assets/Photos/Rectangle\ 6774.png), url(./Assets/Photos/Rectangle\ 6773.png);
+    background-repeat: no-repeat;
+height: 100%;
+text-align: center;
+margin-top: -30px;
+}
+.diamond-right{
+    margin-left: 230px;
+    opacity: .7;
+}
+.diamond-left{
+    opacity: .7;
+}
+.card-customize h2{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 250px;
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.card-customize span{
+    color: rgb(0, 0, 0);
+}
+.bottom-button{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 580px;
+}
+footer{
+    background-color: black;
+    height: 50vh;
+}
+footer .menu{
+    justify-content: space-evenly;
+    padding-top: 150px;
+    margin-top: -17px;
+}
